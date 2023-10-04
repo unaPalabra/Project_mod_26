@@ -56,4 +56,15 @@ public class University {
         this.mainProfile = mainProfile;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "University{" +
+                "id='" + id + '\'' +
+                ", fullName='" + fullName + '\'' +
+                ", shortName='" + shortName + '\'' +
+                ", yearOfFoundation=" + yearOfFoundation +
+                ", mainProfile=" + mainProfile +
+                '}';
+    }
 }
